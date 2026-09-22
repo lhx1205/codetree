@@ -1,0 +1,6 @@
+a,b,c = list(map(int,input().split()))
+s = int(a+b+c)
+m = int(s/3)
+print(s)
+print(m)
+print(s-m)
